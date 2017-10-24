@@ -9,13 +9,13 @@
 
 // parameters
 $hubVerifyToken = 'AccessToken';
-$accessToken = "EAABunNudZBCEBAGzcIWOwY2qZApEYZBKJjZAiJHy5Ll2O9Bd2RiSDRE0ZBZCz0ZA29oihFpZBXP7AbadrwxUZC5yZCBi8GyiVKcFW4GYm0rRe0rZAvkKuomZBO52VXq6OzDpAbAEvhrjXqWEmHScW7kpCmvdH7NTDK7BarbFZAwfE5wnKPw3tsiFBjJbg";
-$witToken = "6WHTFDIESQE4WKBJI5QKRVWS7TEOKP7I";
+$accessToken = "your facebook pages token";
+$witToken = "your wit.ai app server token";
 
 // 建立 mysql 連線
-$server='localhost';
-$id='wuming';
-$pwd='22451010';
+$server='your mysql ip';
+$id='account for mysql';
+$pwd='password for mysql';
 $dbname='god';
 $link = mysqli_connect($server, $id, $pwd, $dbname) or die("無法開啟MySQL資料庫連結!");
 
